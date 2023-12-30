@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Tool",
+  "version": "0.0.1",
+  "author": "wenterwang",
+  "permissions": [
+    "cookies"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "Get Current Page Cookies",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
