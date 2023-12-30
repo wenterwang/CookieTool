@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Get Current Page Cookies</title>
+    <meta charset="UTF-8">
+    <script src="popup.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-width: 200px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+      #toast {
+        display: none;
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        white-space: nowrap; /* 添加此行以保持 toast 文本在一行显示 */
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li id="get-cookies">Get Cookies</li>
+    </ul>
+    <ul>
+      <li id="get-other">Todo</li>
+    </ul>
+    <div id="toast"></div>
+  </body>
+</html>
